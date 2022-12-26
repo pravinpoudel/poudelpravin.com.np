@@ -648,3 +648,8 @@ body {
   height: auto;
   z-index: -1;
 }
+
+.card-img-top {
+  width: 350px;
+  height: 300px;
+}
