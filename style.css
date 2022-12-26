@@ -3,6 +3,7 @@ html {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   background-color: #270d51;
+  overflow-x: hidden;
   color: #d5c8e8;
 }
 
@@ -602,7 +603,7 @@ body {
 }
 
 .github .github-detail {
-  margin-left: 5%;
+  /* margin-left: 5%; */
   max-width: 960px;
 }
 
@@ -634,7 +635,7 @@ body {
 }
 
 .github-pinner.gp-repo {
-  width: 400px;
+  width: 425px;
   margin: 10px;
 }
 
@@ -643,7 +644,7 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
+  width: 120%;
   height: auto;
   z-index: -1;
 }
