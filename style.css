@@ -636,7 +636,7 @@ body {
 }
 
 .github-pinner.gp-repo {
-  width: 425px;
+  /* width: 425px; */
   margin: 10px;
 }
 
@@ -647,15 +647,20 @@ body {
   top: 0;
   width: 100%;
   height: auto;
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 .portfolio .blend_image {
-  opacity: 0.2 !important;
+  opacity: 0.08 !important;
   width: 100%;
+  z-index: inherit;
 }
 
 .card-img-top {
   width: 350px;
   height: 300px;
+}
+
+.git_link {
+  display: inline-block;
 }
